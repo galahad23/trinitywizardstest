@@ -101,6 +101,9 @@
                 android:layout_marginEnd="20dp"
                 android:textSize="20sp"
                 android:hint="@string/text_first_name_hint"
+                android:maxLines="1"
+                android:inputType="text"
+                android:imeOptions="actionNext"
                 app:layout_constraintTop_toBottomOf="@id/vvMainDivider"
                 app:layout_constraintStart_toEndOf="@id/glMain"
                 app:layout_constraintEnd_toEndOf="parent"/>
@@ -134,6 +137,9 @@
                 android:layout_marginEnd="20dp"
                 android:textSize="20sp"
                 android:hint="@string/text_last_name_hint"
+                android:maxLines="1"
+                android:inputType="text"
+                android:imeOptions="actionNext"
                 app:layout_constraintTop_toBottomOf="@id/vvFirstNameDivider"
                 app:layout_constraintStart_toEndOf="@id/glMain"
                 app:layout_constraintEnd_toEndOf="parent"/>
@@ -188,6 +194,9 @@
                 android:layout_marginEnd="20dp"
                 android:textSize="20sp"
                 android:hint="@string/text_email_hint"
+                android:maxLines="1"
+                android:inputType="text"
+                android:imeOptions="actionNext"
                 app:layout_constraintTop_toBottomOf="@id/vvSubDivider"
                 app:layout_constraintStart_toEndOf="@id/glMain"
                 app:layout_constraintEnd_toEndOf="parent"/>
