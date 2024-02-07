@@ -48,7 +48,7 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="20dp"
-                android:background="@color/black"
+                android:background="@color/test_color"
                 app:layout_constraintTop_toBottomOf="@id/vvDivider"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"/>
