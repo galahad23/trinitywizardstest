@@ -10,6 +10,7 @@
         android:layout_height="24dp"
         android:layout_margin="20dp"
         android:src="@drawable/ic_contacts_search"
+        android:tint="@color/test_color"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
 
